@@ -21,6 +21,20 @@ public class Principal {
         System.out.println("\n" + punto4);
         System.out.println(punto7 + "\n");
 
+        // TODO: Punto de 4 dimensiones
+        P4 punto8 = new P4();
+        P4 punto9 = new P4(5, 7, 9, 11);
+        P4 punto10 = new P4(punto5, 8);
+        P4 punto11 = new P4(punto10);
+
+        System.out.println("~~~ 4D ~~~");
+        System.out.println(punto8);
+        System.out.println(punto9);
+        System.out.println(punto10);
+        System.out.println(punto11);
+        System.out.println(punto8.calcularDistancia(punto10));
+        System.out.println("~~~ Fin 4D ~~~ \n");
+
         // TODO: Crear un triangulo
         Triangulo triangulo = new Triangulo();
         triangulo.setPunto1(punto1);
